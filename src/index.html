@@ -1,0 +1,39 @@
+<!--
+File: index.html
+Author: Nagy Áron
+Copyright: 2026, Nagy Áron
+Group: Szoft I-N
+Date: 2026-03-25
+Github: https://github.com/lopnifox/
+Licenc: MIT
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI számítás</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <label for="weight">Testtömeg kilogramban</label>
+  <input type="number" id="weight" class="form-control">
+
+  <label for="height">Magasság centiméterben</label>
+  <input type="number" id="height" class="form-control">
+
+  <button id="calc" class="btn btn-primary mt-3">Számítás</button>
+
+  <div id="bmiPlace">
+    <label for="bmi">Testtömegindex</label>
+    <input type="text" id="bmi" class="form-control" readonly>
+  </div>
+</div>
+  <script src="bootstrap.js"></script>
+  <script src="calcindex.js"></script>
+  <script src="app.js"></script>  
+</body>
+</html>

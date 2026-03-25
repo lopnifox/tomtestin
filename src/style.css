@@ -1,0 +1,36 @@
+/* 
+* File: style.css
+* Author: Nagy Áron
+* Copyright: 2026, Nagy Áron
+* Group: Szoft I-N
+* Date: 2026-03-25
+* Github: https:github.com/lopnifox/
+* Licenc: MIT
+*/
+
+body {
+  background-color: #f8f9fa; /* Világos háttér */
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+.container {
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+#bmiPlace {
+  margin-top: 10px;
+}
+
+#bmiPlace input {
+  background-color: #efefef;
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+}
